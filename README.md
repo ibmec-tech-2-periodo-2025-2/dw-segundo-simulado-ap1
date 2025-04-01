@@ -2,6 +2,8 @@
 
 > Dica: **chegue mais cedo e prepare o seu ambiente!**
 
+> **Não haverá nenhum esclarecimento de dúvidas durante a prova.**
+
 ---
 
 ## Instruções importantes
