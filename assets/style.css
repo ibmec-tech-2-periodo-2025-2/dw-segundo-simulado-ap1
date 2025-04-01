@@ -1,0 +1,122 @@
+:root {
+  --cor-fundo-geral: #f9aad0;
+  --cor-fundo-login: #ad53a6;
+  --cor-fundo-botao: #502779;
+  --cor-texto-e-input: #ffffff;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins";
+  color: var(--cor-texto-e-input);
+  display: flex;
+}
+
+main {
+  width: 33%;
+  background-color: var(--cor-fundo-login);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.complete-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 45%;
+}
+
+.welcome {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.welcome > img {
+  width: 30px;
+  height: 30px;
+}
+
+.slogan {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.slogan > p {
+  font-weight: 200;
+  font-size: 13.7px;
+  margin-top: -37px;
+}
+
+.form {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.5px solid var(--cor-fundo-login);
+}
+
+label {
+  font-size: 11px;
+}
+
+.remember {
+  display: flex;
+}
+
+.remember > input {
+  width: 9%;
+  height: auto;
+}
+
+.remember > label {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--cor-fundo-botao);
+  color: var(--cor-texto-e-input);
+  border: none;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-size: 100;
+  font-family: "Poppins";
+}
+
+aside {
+  width: 67%;
+  background-color: var(--cor-fundo-geral);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  background-image: url(./img/Imagem-blocos.png);
+  width: 498px;
+  height: 594px;
+}
