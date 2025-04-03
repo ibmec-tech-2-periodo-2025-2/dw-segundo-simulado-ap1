@@ -35,7 +35,7 @@ Demais instruções estão no caderno de prova.
 
 ### QUESTÃO 1 (10 pontos)
 
-Link para o protótipo do Figma (digite em seu navegador): https://bit.ly/figma-prova-pcd1
+Link para o protótipo do Figma (digite em seu navegador): [https://bit.ly/figma-prova-pcd1](https://bit.ly/figma-prova-pcd1)
 
 Você recebeu uma demanda do time de UI para criar uma interface de login em tela de desktop para a empresa Borcelle. Foi disponibilizado a você um protótipo do Figma (disponível acima) e uma estrutura básica de pastas e arquivos (repositório do GitHub), que deve ser mantida. Um colega de equipe já estruturou o HTML, entretanto, como essa pessoa não conhece sobre estilização CSS, lhe solicitou ajuda.
 
