@@ -70,5 +70,5 @@ flex-direction: column;
 input[type=email], input[type=password], button{
     height: 50px;
     width: 280px;
-    
+    border-radius: %;
 }
