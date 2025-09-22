@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+:root {
+    --cor-fundo-main: #AD53A6;
+    --cor-aside-main: #F9AAD0;
+    --cor-fonte: #FFFFFF;
+    --cor-botao: #502779;
+    --tamanho: 300px;
+}
+body {
+    background-color: var(--cor-aside-main);
+    display: flex;
+}
+main {
+    background-color: var(--cor-fundo-main);
+    color: var(--cor-fonte);
+    width: 459px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside {
+    margin-left: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+.welcome img {
+    width: 50px;
+    height: 50px;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.login {
+    background-color: var(--cor-botao);
+    color: var(--cor-fonte);
+    width: var(--tamanho);
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.senha {
+    width: var(--tamanho);
+}
+.email {
+    width: var(--tamanho);
+}
+.complete-box {
+    height: 500px;
+    padding: 10px;
+}
+.slogan {
+    margin-bottom: 70px;
+}
+.slogan p {
+    font-weight: 200;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+#email {
+    width: var(--tamanho);
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+#senha {
+    width: var(--tamanho);
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+.email-input, .pass-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.remember {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    cursor: pointer;
+}
