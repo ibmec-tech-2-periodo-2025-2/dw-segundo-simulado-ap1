@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 15px;
+    
+
+}
+
+:root {
+    --cor-fundo-main: #AD53A6;
+    --cor-fundo-aside: #F9AAD0;
+    --cor-escrita: white;
+    --cor-buttun: #502779;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: var(--cor-escrita);
+}
+
+main{
+    grid-column: 1/2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo-main);
+    flex-direction: column;
+}
+
+
+
+aside{
+    grid-column: 2/3;
+    background-color: var(--cor-fundo-aside);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-image: url(/assets/img/Imagem-blocos.png);
+    height: 594px;
+    width: 498px;
+    background-position: center;
+    background-size: cover;
+}
+
+ .pass-input input, .email-input input ,.button button {
+    width: 329px;
+    height: 50px;
+    border-radius: 9px;
+    border: 0;
+}
+
+input[type=checkbox] {
+    border: 0;
+
+}
+button {
+    background-color: var(--cor-buttun);
+    color: var(--cor-escrita);
+
+}
+
+input[type=email], input[type=password] {
+    /* margin-bottom: 20px; */
+}
+.remeber, .pass-input, .email-input {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.email-input {
+    margin-top: 50px;
+}
+
+.slogan p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+/* distancia entre as palavras e as caixas de texto  */
+.pass-input , .email-input {
+    gap: 10px;
+    
+}
+
+/* posicionamentos do remember para ficar mais proximo da parte de cima  */
+.remember{
+    margin-top: -20px;
+}
+
+/* welcom  */
+.welcome {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.welcome h2 {
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+.welcome img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
