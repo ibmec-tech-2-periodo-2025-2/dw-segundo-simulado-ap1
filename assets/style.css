@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+   
+}
+:root{
+    --cor-fundo-main: #AD53A6; 
+    --cor-botao-main: #502779 ; 
+    --cor-fundo-aside: #F9AAD0 ;
+    --cor-letras: #fff;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: var(--cor-letras);
+}
+
+main{
+    /* border: 2px solid greenyellow; */
+    grid-column: 1/2;
+    background-color: var(--cor-fundo-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+aside{
+    /* border: 2px solid rebeccapurple; */
+    grid-column: 2/4;
+    background-color: var(--cor-fundo-aside);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.complete-box{
+    /* border: 2px solid goldenrod; */
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.welcome{
+    /* border: 1px solid bisque; */
+    display: flex;
+    gap: 5px;
+}
+.welcome h2{
+    font-size: 40px;
+    margin-top: 1.5px;
+}
+.welcome img{
+    width: 50px;
+    height: 50px;
+}
+.email-input , .pass-input{
+    /* border: 2px  solid darkred; */
+    display: flex;
+    flex-direction: column;
+}
+input[type=email], input[type=password]{
+    height: 50px;
+    width: 329px;
+    font-size: 20px;
+    /* margin-bottom: 60px; */
+    border: none    ;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+label{
+    margin-bottom: 5px;
+}
+.remember{
+    margin-bottom: 5px;
+}
+.remember input[type=checkbox]{
+    height: 13px;
+    width: 13px;
+    border-radius: 0px;
+    border: 0.1px  solid var(--cor-fundo-main);
+    margin-bottom: 3px;
+}
+.slogan{
+    margin-top: -20px;
+    margin-left: 8px;
+    
+}
+.slogan p{
+    font-size: 20px;
+    font-weight: 200;
+}
+button{
+    height: 50px;
+    width: 329px;
+    font-size:20px ;
+    background-color: var(--cor-botao-main);
+    color: var(--cor-letras);
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+}
