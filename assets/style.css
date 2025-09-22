@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+:root{
+    --cor-fundo-main:#AD53A6;
+    --cor-fundo-aside:#F9AAD0;
+    --cor-fundo-botao:#502779;
+    --cor-texto:#FFFFFF;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: var(--cor-texto);
+}
+
+main{
+    /* border: 3px solid greenyellow; */
+    grid-column: 1/2;
+    background-color: var(--cor-fundo-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    /* border: 3px solid red; */
+    grid-column: 2/4;
+    background-color: var(--cor-fundo-aside);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+button{
+    background-color:var(--cor-fundo-botao);
+    width: 329px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: var(--cor-texto);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100;
+    margin-right: 110px;
+}
+
+.welcome h2{
+    font-size: 40px;
+    margin-top: 1.5px;
+}
+
+.welcome img{
+    width: 50px;
+    height: 50px;
+    margin-top: -9px;
+}
+
+.slogan{
+    font-weight: 100;
+    margin-bottom: 70px;
+    font-size: 21px;
+}
+
+.email-input, .pass-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+#password, #email{
+    width: 329px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
