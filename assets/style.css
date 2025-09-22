@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root{
+    --cor-fundo-main: #AD53A6;
+    --cor-fundo-aside: #F9AAD0;
+    --cor-fundo-login: #502779;
+    --cor-texto: white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main{
+    background-color: var(--cor-fundo-main);
+    grid-column: 1/2;
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    grid-column: 2/4;
+    background-color: var(--cor-fundo-aside);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    background-color: var(--cor-fundo-login);
+    color: var(--cor-texto);
+    height: 50px;
+    width: 329px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.complete-box{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.welcome{
+    display: flex;
+    gap: 10px;
+}
+.welcome img{
+    width: 50px;
+    height: 50px;
+}
+
+#email, #pass{
+    width: 329px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.email-input, .pass-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan p{
+    font-size: 21px;
+    font-weight: 200;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.remember{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.remember inout[type=checkbox]{
+    width: 13px;
+    height: 13px;
+    border: 0.1px solid var(--cor-fundo-main);
+    border-radius: 0px;
+    margin-bottom: 4px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slogan{
+    margin-bottom: 70px;
+}
