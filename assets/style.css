@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+}
+
+:root{
+    --main_color: #AD53A6;
+    --asside_color: #F9AAD0;
+    --button_color: #502779;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+}
+h2,p,label,button{
+    color: white;
+}
+
+main{
+    grid-column: 1/5;
+    background-color: var(--main_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -50px;
+    margin-right: 170px;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+
+}
+.form{
+    margin-top: 80px;
+
+}
+input{
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+}
+aside{
+    grid-column: 5/13;
+    background-color: var(--asside_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    height: 20px;
+    font-size: xx-large;
+    margin-top: -13px;
+}
+.image{
+    background-image: url("./img/Imagem-blocos.png");
+    height: 594px;
+    width: 498px;
+}
+.email-input{
+    margin: 35px;
+    border: 0;
+
+}
+.pass-input{
+    margin: 35px;
+    border: 0;
+
+}
+#rememberM{
+    height: 20px;
+    width: 20px;
+    margin-left: 35px;
+}
+.login{
+    height:50px ;
+    width: 300px ;
+    margin-left: 35px;
+    background-color: var(--button_color);
+    border-radius: 5px;
+    margin: 35px;
+    border: 0;
+}
+
+.remember {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
