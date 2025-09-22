@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+:root{
+    --cor-fundo-main: #AD53A6;
+    --cor-fundo-aside: #F9AAD0;
+    --cor-fundo-botao: #502779;
+    --cor-texto: #FFF;
+}
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: var(--cor-texto);
+}
+
+main{
+    /* border: 1px solid red; */
+    grid-column: 1/2;
+    background-color: var(--cor-fundo-main);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    /* color: var(--cor-texto); */
+    font-weight: 800;
+}
+
+aside{
+    /* border: 1px solid red; */
+    grid-column: 2/4;
+    background-color: var(--cor-fundo-aside);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.complete-box{
+    /* border: 1px solid greenyellow; */
+    max-height: fit-content;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.welcome{
+    /* border: 1px solid rgb(153, 255, 0); */
+    display: flex;
+    gap: 5px;
+}
+
+
+.welcome h2 {
+    font-size: 40px;
+    margin-top: 1.5px;
+}
+
+.welcome img {
+    width: 50px;
+    height: 50px;
+}
+
+.email-input, .pass-input {
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    height: 50px;
+    width: 329px;
+    font-size: 20px;
+    /* margin-bottom: 20px; */
+    background-color: var(--cor-fundo-botao);
+    border: none;
+    color: var(--cor-texto);
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=email], input[type=password]{
+    height: 50px;
+    width: 329px;
+    font-size: 20px;
+    /* margin-bottom: 20px; */
+}
+
+label{
+    margin-bottom: 5px;
+}
+.remember{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.remember input [type=checkbox]{
+    width: 13px;
+    height: 13px;
+    margin-bottom: 3px;
+}
+.slogan{
+    margin-bottom: 20px;
+    margin-top: -10px;
+
+
+}
+
+.slogan p{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
