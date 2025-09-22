@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,f1);
+    
+}
+:root{
+    --cor-fundo-main:rgb(173,83,166);
+    --cor-fundo-body:rgb(248,170,208);
+    --cor-fundo-buton:rgb(80,39,121);
+    --cor-texto:#ffff;
+}
+main{
+    display: flex;
+    grid-column: 1/2;
+    background-color: var(--cor-fundo-main);
+    color: white;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    grid-column: 2/4;
+    background-color: var(--cor-fundo-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2{
+    color: white;
+    font-weight: 800;
+    font-size:40px; 
+}
+.complete-box{
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    max-width: fit-content;
+    border: none;
+    gap: 20px;
+}
+.welcome{
+    display: flex;
+    gap: 10px;
+}
+.welcome img{
+    width: 50px;
+    height: 50px;
+}
+.slogan{
+    color: white;
+    font-size: 19px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    margin-bottom: 8px;
+}
+.email-input, .pass-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: none;
+}
+
+input[type=email], input[type=password]{
+    width: 329px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.remember{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+.remember input{
+    height: 15px;
+    width: 15px;
+}
+.login{
+    background-color: var(--cor-fundo-buton);
+    color: var(--cor-texto);
+    width: 329px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: medium;
+}
