@@ -54,7 +54,3 @@ Diante desse cenário, você deve fazer a reprodução do protótipo utilizando 
 - Trabalhe os espaços entre os elementos filhos de .complete-box. Utilize tamanhos absolutos ou relativos definidos por você para que o resultado fique o mais próximo possível do protótipo. (1 ponto)
 - Ao final, tire um print do seu resultado final no navegador e cole na pasta do projeto.
 
-### QUESTÃO 2 (0,5 ponto, extra)
-
-Utilize a propriedade correta para aumentar a distância entre as letras do texto do botão.
-
