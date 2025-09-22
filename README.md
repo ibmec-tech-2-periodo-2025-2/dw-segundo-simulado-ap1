@@ -1,9 +1,10 @@
-# [PCD1] AVALIAÇÃO PARCIAL 1
+# [SIMULADO - REVISÃO ASSISTIDA] [DW] AVALIAÇÃO PARCIAL 1
 
 > Dica: **chegue mais cedo e prepare o seu ambiente!**
 
 > **Não haverá nenhum esclarecimento de dúvidas durante a prova.**
 
+Acesse aqui os [enunciados](https://docs.google.com/document/d/1oRJ6aF2_RAuvTwzZoN_QXC1bX6B7ijVv/edit?usp=sharing&ouid=101049285766931269321&rtpof=true&sd=true) da prova
 ---
 
 ## Instruções importantes
