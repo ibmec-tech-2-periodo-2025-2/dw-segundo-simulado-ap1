@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  
+/* o basico */
+
+/* declarando as fontes  */
+}
+
+
+/* para fazer variaveis declaramos o :root  */
+:root{
+    --cormainfundo:  #AD53A6;
+    --corasidefundo: #F9AAD0;
+    --corfundobotao: #502779;
+    --cortexto: #fff;
+    /* pediu para declarar as cores em variaveis para facilitar a leitura para quem nao sabe ler o codigo  */
+
+}
+
+body{
+width: 100vw;
+height: 100vh;
+/* o basico */
+
+/* o tipo de display escolhido por ser mais facil de organizar */
+display: grid;
+grid-template-columns: repeat (3,fr);
+
+
+/* declarando as cores do texto   */
+color: var(--cortexto);
+}
+
+main{
+    /* colocando lado a lado com  proporção 1 pra 2 */
+grid-column: 1/2;
+/* border: 1px solid red; ajuda na construção da div*/
+background-color: var(--cormainfundo);
+/* fim 04 */
+
+/* centralizando a complete box  */
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+aside{
+        /* colocando lado a lado com  proporção 1 pra 2  */
+    grid-column: 2/4;
+    /* border: 1px solid rgb(89, 0, 255); ajuda na construção da div*/
+    background-color: var(--corasidefundo);
+    /* fim 04 */
+
+    /* alinhando imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.complete-box{
+/* border: 1px solid blue; */
+
+/* coloca assim para ajustar mais detalhes se usar % voce perde a diferentes tamanhos */
+max-height:fit-content;
+max-width:fit-content;
+
+/* inicio da formatação da div  */
+
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+.welcome{
+    /* border: 1px solid brown; */
+
+    /* alinhando a coroa e o h2 lado a lado */
+    display: flex;
+
+    /* ajustando o espaçamento pedido */
+    gap: 5px;
+
+
+}
+
+/* tentando ajustar o tamanho da coroa e do borcelle  */
+h2{
+    
+    font-size: 40px;
+}
+.welcome img{
+height: 50px;
+width: 50px;
+}
+
+/* fim do alinhamento da coroa e da imagem */
+
+.email-input, .pass-input{
+
+    /* colocando um embaixo do outro, o eamil e a senha embaixo do outro  */
+
+    display: flex;
+
+    /* coloca o alinhamento na coluna  */
+    flex-direction: column;
+}
+
+/* aumentando o type e o botao de enviar deixando do mesmo tamanho e melhorando o tamanho da fonte dentro */
+
+button,input[type=password],input[type=email] {
+
+font-size: 15px;
+height: 50px;
+width: 290px;
+border-radius: 5px;
+}
+
+/* colocando os espaçamentos */
+label{
+    margin-bottom: 5px;
+}
+
+/* ajustando o botao do remeberme de acordo com a imagem */
+.remember{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.remember input {
+    width: 16px;
+    height: 15px;
+
+}
+
+.remember label{
+    margin-top: 4px;
+}
+
+input[type=password],input[type=email]{
+padding: 10px;
+width: 300px;
+gap: 20px;
+border: none;
+}
+
+
+.slogan{
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+    gap: 20px;
+}
+
+.slogan p{
+    font-size: 20px;
+    font-weight: 50;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    background-color: var(--corfundobotao);
+    border: none;
+    color: var(--cortexto);
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
