@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://wallpapers.com/images/hd/red-and-black-background-dp7vxcnkr528c7n7.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main{
+    border: 1px solid rgba(255, 0, 0, 0.71);
+    border-top: none;
+    border-bottom: none;
+    grid-column: 2/3;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-box{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    width: fit-content;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.welcome h2{
+    padding-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.email-input, .pass-input{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+input[type=email], input[type=password]{
+    border: None;
+    border-bottom:3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 95%
+}
+
+button{
+    width: 200px;
+    border-radius: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border: black 1px solid;
+    margin-top: 10px;
+}
+
+.remember{
+    display: flex;
+    gap: 5px;
+}
+
+.remember input[type="checkbox"] {
+  accent-color: #f32121; /* muda a cor do check e da caixa */
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
